@@ -1,0 +1,25 @@
+{
+  "name": "Automaticanva",
+  "description": "Automate bulk designs on Canva by Walther Carrasco",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "./canva16x16.png",
+    "32": "./canva32x32.png",
+    "48": "./canva48x48.png",
+    "128": "./canva128x128.png"
+  },
+  "background": {
+    "scripts": [
+      "./background.js"
+    ]
+  },
+  "options_page": "./options.html",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
