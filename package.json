@@ -1,19 +1,19 @@
 {
   "name": "automaticanva",
   "version": "1.0.0",
-  "description": "Automate bulk designs on Canva",
-  "main": "index.js",
+  "description": "Automate bulk designs on Canva by Walther Carrasco",
+  "main": "index-popup.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack-dev-server",
-    "build:prod": "webpack -p"
+    "build:prod": "webpack --mode=\"production\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wecarrasco/automaticanva.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Walther Carrasco",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wecarrasco/automaticanva/issues"
